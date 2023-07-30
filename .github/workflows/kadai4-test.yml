@@ -7,5 +7,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-      run: bash kadai4-test.sh
+      - name: Checkout repository 
+        uses: actions/checkout@v2
+      
+      - name: Run kadai-test.sh
+        run: bash kadai4-test.sh
