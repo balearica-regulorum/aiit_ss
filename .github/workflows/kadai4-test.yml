@@ -7,4 +7,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - run: bash kadai4-test.sh  # kadai4-test.shの実行
+    - run:
+     ls -a
+     bash kadai4-test.sh  # kadai4-test.shの実行
