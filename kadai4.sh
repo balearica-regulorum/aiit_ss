@@ -24,7 +24,7 @@ function gcd() {
     return $a
 }
 
-# 引数を取得
+# 引数を取得 
 num1=$1
 num2=$2
 
