@@ -1,0 +1,7 @@
+name: kadai4-test-automation
+on: [push]
+jobs:
+check-bats-version:
+runs-on: ubuntu-latest
+steps:
+- run: bash kadai4-test.sh
