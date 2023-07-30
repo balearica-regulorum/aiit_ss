@@ -32,4 +32,3 @@ num2=$2
 gcd "$num1" "$num2"
 result=$?
 echo "最大公約数: $result"
-exit 0
