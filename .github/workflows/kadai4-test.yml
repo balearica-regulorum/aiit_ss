@@ -1,6 +1,6 @@
 name: kadai4-test-automation
 on: [push]
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-  - run: kadai4-test.sh
+runs-on: ubuntu-latest
+steps:
+- run: kadai4-test.sh
