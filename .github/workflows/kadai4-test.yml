@@ -3,4 +3,4 @@ on: [push]
 jobs:
 runs-on: ubuntu-latest
 steps:
-- run: kadai4-test.sh
+- run: bash kadai4-test.sh
