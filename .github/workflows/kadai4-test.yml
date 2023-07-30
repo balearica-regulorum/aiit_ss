@@ -7,4 +7,4 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - run: vim kadai4.sh
+    - run: cat kadai4.sh
