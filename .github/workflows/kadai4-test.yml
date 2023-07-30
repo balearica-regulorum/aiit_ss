@@ -3,4 +3,7 @@ on: [push]
 jobs:
 runs-on: ubuntu-latest
 steps:
-- run: bash kadai4-test.sh
+  run: |
+    chmod +x kadai4.sh  # 実行権限を付与
+    chmod +x kadai4-test.sh  # 実行権限を付与
+    bash kadai4-test.sh  # kadai4-test.shの実行
