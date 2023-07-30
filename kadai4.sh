@@ -31,4 +31,4 @@ num2=$2
 # 最大公約数を計算して出力
 gcd "$num1" "$num2"
 result=$?
-echo "最大公約数: $result"
+echo "$num1 と $num2 の最大公約数: $result"
